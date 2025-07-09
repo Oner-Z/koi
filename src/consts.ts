@@ -1,20 +1,20 @@
 // 引入的图片对象，用于 Astro 的 <Image> 组件
 // 详见 https://docs.astro.build/en/guides/images/#image--astroassets
-import authorAvatarImage from "./assets/akkarin.jpg";
-import headerImageDay from "./assets/header_day.jpg";
+import authorAvatarImage from "./assets/Oner.jpg";
+import headerImageDay from "./assets/auto.jpg";
 import headerImageNight from "./assets/header_night.webp";
 
 // 网站的 <html> 语言标签
-export const SITE_LANGUAGE = "en";
+export const SITE_LANGUAGE = "zh-hans-CN";
 
 // 网站名称
-export const SITE_TITLE = 'Astro Koi';
+export const SITE_TITLE = '自动化钱';
 
 // 网站的副标题
-export const SITE_DESCRIPTION = '又一个基于 Astro 的博客站点';
+export const SITE_DESCRIPTION = '学习指南';
 
 // 博主的昵称
-export const SITE_AUTHOR_NAME = "tcdw";
+export const SITE_AUTHOR_NAME = "Oner-Z";
 
 // 博主的头像
 export const SITE_AUTHOR_AVATAR = authorAvatarImage;
