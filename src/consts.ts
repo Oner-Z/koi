@@ -1,11 +1,11 @@
 // 引入的图片对象，用于 Astro 的 <Image> 组件
 // 详见 https://docs.astro.build/en/guides/images/#image--astroassets
-import authorAvatarImage from "src/assets/Oner.jpg";
-import headerImageDay from "src/assets/auto.jpg";
+import authorAvatarImage from "./assets/akkarin.jpg";
+import headerImageDay from "./assets/header_day.jpg";
 import headerImageNight from "./assets/header_night.webp";
 
 // 网站的 <html> 语言标签
-export const SITE_LANGUAGE = "zh-hans-CN";
+export const SITE_LANGUAGE = "en";
 
 // 网站名称
 export const SITE_TITLE = '自动化钱';
