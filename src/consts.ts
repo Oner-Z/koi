@@ -1,17 +1,17 @@
 // 引入的图片对象，用于 Astro 的 <Image> 组件
 // 详见 https://docs.astro.build/en/guides/images/#image--astroassets
 import authorAvatarImage from "./assets/Oner.jpg";
-import headerImageDay from "./assets/header_day.jpg";
+import headerImageDay from "./assets/DX.jpg";
 import headerImageNight from "./assets/header_night.webp";
 
 // 网站的 <html> 语言标签
 export const SITE_LANGUAGE = "en";
 
 // 网站名称
-export const SITE_TITLE = '自动化钱';
+export const SITE_TITLE = '西安交通大学笃行战队';
 
 // 网站的副标题
-export const SITE_DESCRIPTION = '学习指南';
+export const SITE_DESCRIPTION = '视觉组资料';
 
 // 博主的昵称
 export const SITE_AUTHOR_NAME = "Oner-Z";
