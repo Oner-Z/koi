@@ -6,12 +6,11 @@ import tailwindcss from "@tailwindcss/vite";
 
 // https://astro.build/config
 export default defineConfig({
-  // 请修改为你自己的线上地址，谢谢茄子
-  site: 'https://tcdw.github.io/koi',
+  // 修改为你的 Vercel 部署地址
+  site: 'https://oner-z.vercel.app',
 
-  // 如果你的网站在子路径下（例如 `https://example.com/koi/`），则填写 `/koi/`
-  // 在根路径下（例如 `https://example.com/`）则填写 `/`
-  base: process.env.NODE_ENV === "production" ? "/koi/" : "",
+  // Vercel 部署在根路径，所以设置为 "/"
+  base: "/",
 
   integrations: [mdx(), sitemap(), svelte()],
 
