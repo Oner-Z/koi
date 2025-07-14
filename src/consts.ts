@@ -1,7 +1,7 @@
 // 引入的图片对象，用于 Astro 的 <Image> 组件
 // 详见 https://docs.astro.build/en/guides/images/#image--astroassets
-import authorAvatarImage from "./assets/Oner.jpg";
-import headerImageDay from "./assets/auto.jpg";
+import authorAvatarImage from "src/assets/Oner.jpg";
+import headerImageDay from "src/assets/auto.jpg";
 import headerImageNight from "./assets/header_night.webp";
 
 // 网站的 <html> 语言标签
